@@ -1,6 +1,7 @@
 # DeepLPC
 
-DeepLPC is a Deep Learning framework proposed in [[1]](https://ieeexplore.ieee.org/document/9411829)
+DeepLPC is a Deep Learning framework proposed in [[1]](https://ieeexplore.ieee.org/document/9411829)[DeepLPC.pdf](https://github.com/sujancseru/DeepLPC/files/11584544/DeepLPC.pdf)
+
 
 Introduction:
 1. LPC is a key parameter for speech coding, speech recognition, and speech enhancement using Kalman Filter. However, in noisy conditions the accuracy of LPC estimates become deteriorate and degrades the performance of speech processing systems requireing accurate LPCs.
@@ -19,8 +20,6 @@ Implementation:
 3. To facilated the convergency of the gradient optimization algorith, it is necessary to generate normalized training target. It was shwon in [[1]](https://ieeexplore.ieee.org/document/9411829) that the log LPC power spectra of clean speech and noise signal can be fitten with Gaussian Distribution. Therefore, the Gaussian CDF has been used to normalize the log LPC power spectra. 
 
 ![fig1](https://github.com/sujancseru/DeepLPC/assets/130210435/483d4468-29f4-4621-88c1-4fd9dcf6ef71)
-
-[fig1.pdf](https://github.com/sujancseru/DeepLPC/files/11584542/fig1.pdf)
 
 [1] [S. K. Roy, A. Nicolson, and K. K. Paliwal, "DeepLPC: A Deep Learning Approach to Augmented Kalman Filter-Based Single-Channel Speech Enhancement," in IEEE Access, vol. 9, pp. 64524-64538, 2021, doi: 10.1109/ACCESS.2021.3075209.](https://ieeexplore.ieee.org/document/9411829)
 
