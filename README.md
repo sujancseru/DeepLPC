@@ -20,6 +20,7 @@ Implementation:
 
 ![fig1](https://github.com/sujancseru/DeepLPC/assets/130210435/483d4468-29f4-4621-88c1-4fd9dcf6ef71)
 
+[fig1.pdf](https://github.com/sujancseru/DeepLPC/files/11584542/fig1.pdf)
 
 [1] [S. K. Roy, A. Nicolson, and K. K. Paliwal, "DeepLPC: A Deep Learning Approach to Augmented Kalman Filter-Based Single-Channel Speech Enhancement," in IEEE Access, vol. 9, pp. 64524-64538, 2021, doi: 10.1109/ACCESS.2021.3075209.](https://ieeexplore.ieee.org/document/9411829)
 
