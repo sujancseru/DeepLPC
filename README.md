@@ -9,7 +9,7 @@ Introduction:
 
 Key Contributions: This paper introduces a deep learning framework, namely DeepLPC within the residual network and temporal network (ResNet-TCN). DeepLPC learns a mapping from the noisy speech LPC power spectra to the clean speech and noise LPC power spectra from where the corresponding LPC parameters are computed. By producing less biased clean speech and noise LPC estimates, DeepLPC enables the AKF to produce enhanced speech at a higher quality and intelligibility in real-life noise conditions.
 
-Implementation: 1. DeepLPC utilize ResNet-TCN as used in [Deep Xi] (https://github.com/anicolson/DeepXi)
+Implementation: 1. DeepLPC utilize ResNet-TCN as used in [[DeepXi]] (https://github.com/anicolson/DeepXi)
 2. In DeepLPC, ResNet-TCN learns a mapping from the noisy speech LPC power spectra to the clean speech and noise LPC power spectra from where the corresponding LPC parameters are computed.
 3. To facilated the convergency of the gradient optimization algorith, it is necessary to generate normalized training target. It was shwon in [[1]] (https://ieeexplore.ieee.org/document/9411829) that the log LPC power spectra of clean speech and noise signal can be fitten with Gaussian Distribution. Therefore, the Gaussian CDF has been used to normalize the log LPC power spectra. 
 
