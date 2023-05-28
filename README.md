@@ -2,7 +2,6 @@
 
 DeepLPC is a Deep Learning framework proposed in [[1]](https://ieeexplore.ieee.org/document/9411829) to optimize Augmented Kalman Filter for Speech Enhancement in Real-Life Condition.
 
-
 # Introduction:
 1. LPC is a key parameter for speech coding, speech recognition, and speech enhancement using Kalman Filter. However, in noisy conditions the accuracy of LPC estimates become deteriorate and degrades the performance of speech processing systems requireing accurate LPCs.
 2. DeepLPC is a Deep Learning framework for accurately estimating the LPC parameters in noisy condition. 
