@@ -1,4 +1,4 @@
-# DeepLPC
+# DeepLPC: A deep learning approach to augmented Kalman filter-based single-channel speech enhancement
 
 DeepLPC is a Deep Learning framework proposed in [[1]](https://ieeexplore.ieee.org/document/9411829)[DeepLPC.pdf](https://github.com/sujancseru/DeepLPC/files/11584544/DeepLPC.pdf)
 
