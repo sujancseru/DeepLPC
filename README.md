@@ -13,7 +13,7 @@ This paper introduces a deep learning framework, namely DeepLPC within the resid
 Implementation: 
 1. DeepLPC utilize ResNet-TCN as used in [Deep Xi](https://github.com/anicolson/DeepXi).
 2. In DeepLPC, ResNet-TCN learns a mapping from the noisy speech LPC power spectra to the clean speech and noise LPC power spectra from where the corresponding LPC parameters are computed.
-3. To facilated the convergency of the gradient optimization algorith, it is necessary to generate normalized training target. It was shwon in [[1]] (https://ieeexplore.ieee.org/document/9411829) that the log LPC power spectra of clean speech and noise signal can be fitten with Gaussian Distribution. Therefore, the Gaussian CDF has been used to normalize the log LPC power spectra. 
+3. To facilated the convergency of the gradient optimization algorith, it is necessary to generate normalized training target. It was shwon in [[1]](https://ieeexplore.ieee.org/document/9411829) that the log LPC power spectra of clean speech and noise signal can be fitten with Gaussian Distribution. Therefore, the Gaussian CDF has been used to normalize the log LPC power spectra. 
 
 ![fig1](https://github.com/sujancseru/DeepLPC/assets/130210435/483d4468-29f4-4621-88c1-4fd9dcf6ef71)
 
